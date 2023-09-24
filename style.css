@@ -1,0 +1,102 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: rgb(235, 235, 235);
+}
+
+body {
+  border-radius: 10px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title h1 {
+  font-size: 2.5rem;
+}
+
+#title p {
+  font-size: 1.2rem;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#img-caption {
+  background-color: white;
+  margin: 1rem 0;
+}
+
+#img-caption p {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#tribute-info {
+  display: block;
+  height: auto;
+  justify-content: center;
+  margin: 1rem 5vw;
+}
+
+ul {
+  display: block;
+  flex-direction: column;
+  align-items: left;
+  text-decoration: dotted;
+  margin-bottom: 4rem;
+}
+
+ul li {
+  display: flex;
+  text-align: left;
+  font-size: 1rem;
+  color: rgb(45, 45, 45);
+  margin: 2rem;
+}
+
+#year {
+  font-weight: bold;
+}
+
+#caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+#captionAuthor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+
+#textLink {
+  text-align: center;
+  font-size: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
